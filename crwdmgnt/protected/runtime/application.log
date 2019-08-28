@@ -1,0 +1,1038 @@
+2014/03/18 05:26:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Geta".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('Geta')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('Geta')
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('DataFetcher/Get...')
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unipanga/source/index.php?r=DataFetcher/Geta
+---
+2014/03/18 05:35:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Geta".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('Geta')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('Geta')
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('DataFetcher/Get...')
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unipanga/source/index.php?r=DataFetcher/Geta
+---
+2014/03/18 05:50:30 [error] [php] Trying to get property of non-object (C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php:41)
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): DataFetcherController->runAction()
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): DataFetcherController->runActionWithFilters()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): DataFetcherController->run()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\unipanga\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/unipanga/source/index.php?r=DataFetcher/Get&country=Pakistan&city=Karachi&region=Asia&state=Sindh&lati=23&long=43&ip=12
+in C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php (41)
+in C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php (25)
+in C:\wamp\www\unipanga\source\index.php (13)
+2014/03/18 05:51:35 [error] [php] Trying to get property of non-object (C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php:42)
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): DataFetcherController->runAction()
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): DataFetcherController->runActionWithFilters()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): DataFetcherController->run()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\unipanga\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/unipanga/source/index.php?r=DataFetcher/Get&country=Pakistan&city=Karachi&region=Asia&state=Sindh&lati=23&long=43&ip=12
+in C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php (42)
+in C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php (25)
+in C:\wamp\www\unipanga\source\index.php (13)
+2014/03/18 05:53:24 [error] [php] Trying to get property of non-object (C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php:36)
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): DataFetcherController->runAction()
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): DataFetcherController->runActionWithFilters()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): DataFetcherController->run()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\unipanga\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/unipanga/source/index.php?r=DataFetcher/Get&country=Pakistan&city=Karachi&region=Asia&state=Sindh&lati=23&long=43&ip=12
+in C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php (36)
+in C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php (25)
+in C:\wamp\www\unipanga\source\index.php (13)
+2014/03/18 08:33:09 [error] [exception.CException] exception 'CException' with message 'Property "SystemCountry.icm_system_state_id" is not defined.' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(159): CComponent->__set('icm_system_stat...', '1')
+#1 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(55): CActiveRecord->__set('icm_system_stat...', '1')
+#2 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(69): DataFetcherController->findCountry('Asia', 'Pakistan')
+#3 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(83): DataFetcherController->findState('Asia', 'Pakistan', 'Sindh')
+#4 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(25): DataFetcherController->findCity('Asia', 'Pakistan', 'Sindh', 'Karachi')
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DataFetcherController->actionGet()
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('Get')
+#10 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('DataFetcher/Get')
+#11 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/unipanga/source/index.php?r=DataFetcher/Get&country=Pakistan&city=Karachi&region=Asia&state=Sindh&lati=23&long=43&ip=12
+---
+2014/03/18 08:33:48 [error] [exception.CException] exception 'CException' with message 'Property "SystemCity.icm_system_country_id" is not defined.' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(159): CComponent->__set('icm_system_coun...', '1')
+#1 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(83): CActiveRecord->__set('icm_system_coun...', '1')
+#2 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(25): DataFetcherController->findCity('Asia', 'Pakistan', 'Sindh', 'Karachi')
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DataFetcherController->actionGet()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('Get')
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('DataFetcher/Get')
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/unipanga/source/index.php?r=DataFetcher/Get&country=Pakistan&city=Karachi&region=Asia&state=Sindh&lati=23&long=43&ip=12
+---
+2014/03/18 08:34:21 [error] [exception.CException] exception 'CException' with message 'Property "SystemCity.icm_system_country_id" is not defined.' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(159): CComponent->__set('icm_system_coun...', '1')
+#1 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(83): CActiveRecord->__set('icm_system_coun...', '1')
+#2 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(25): DataFetcherController->findCity('Asia', 'Pakistan', 'Sindh', 'Karachi')
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DataFetcherController->actionGet()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('Get')
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('DataFetcher/Get')
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/unipanga/source/index.php?r=DataFetcher/Get&country=Pakistan&city=Karachi&region=Asia&state=Sindh&lati=23&long=43&ip=12
+---
+2014/03/18 08:54:50 [error] [php] Undefined index: id (C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php:22)
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): DataFetcherController->runAction()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): DataFetcherController->runActionWithFilters()
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): DataFetcherController->run()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\unipanga\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/unipanga/source/index.php?r=DataFetcher/Get&country=Pakistan&city=Karachi&region=Asia&state=Sindh&lati=23&long=43&ip=192.168.1.1
+in C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php (22)
+in C:\wamp\www\unipanga\source\index.php (13)
+2014/03/24 14:25:40 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\wamp\www\yii-1.1.13.e9e4a0\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\unipanga\source\protected\components\UserIdentity.php(24): spl_autoload_call()
+#1 C:\wamp\www\unipanga\source\protected\models\formLogin.php(22): UserIdentity->authenticate()
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): formLogin->authenticate()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CInlineValidator->validate()
+#5 C:\wamp\www\unipanga\source\protected\controllers\SiteController.php(28): formLogin->validate()
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\unipanga\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/unipanga/source/index.php?r=site/login
+in C:\wamp\www\unipanga\source\protected\components\UserIdentity.php (24)
+in C:\wamp\www\unipanga\source\protected\models\formLogin.php (22)
+in C:\wamp\www\unipanga\source\protected\controllers\SiteController.php (28)
+2014/03/24 14:29:25 [error] [exception.CException] exception 'CException' with message 'Property "Users.akdn_user_types_id" is not defined.' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(143): CComponent->__get('akdn_user_types...')
+#1 C:\wamp\www\unipanga\source\protected\components\UserIdentity.php(31): CActiveRecord->__get('akdn_user_types...')
+#2 C:\wamp\www\unipanga\source\protected\models\formLogin.php(22): UserIdentity->authenticate()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\validators\CInlineValidator.php(42): formLogin->authenticate('password', Array)
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(formLogin), 'password')
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(formLogin), NULL)
+#6 C:\wamp\www\unipanga\source\protected\controllers\SiteController.php(28): CModel->validate()
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/unipanga/source/index.php?r=site/login
+HTTP_REFERER=http://localhost/unipanga/source/index.php?r=site/login
+---
+2014/03/24 14:30:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home/index".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unipanga/source/index.php?r=home/index
+HTTP_REFERER=http://localhost/unipanga/source/index.php?r=site/login
+---
+2014/03/24 14:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home/index".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unipanga/source/index.php?r=home/index
+HTTP_REFERER=http://localhost/unipanga/source/index.php?r=site/login
+---
+2014/03/24 14:31:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home/index".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unipanga/source/index.php?r=home/index
+HTTP_REFERER=http://localhost/unipanga/source/index.php?r=site/login
+---
+2014/03/24 14:31:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home/index".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unipanga/source/index.php?r=home/index
+HTTP_REFERER=http://localhost/unipanga/source/index.php?r=site/login
+---
+2014/03/24 14:32:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home/login".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('home/login')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unipanga/source/index.php?r=home/login
+---
+2014/03/24 14:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home/login".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('home/login')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unipanga/source/index.php?r=home/login
+---
+2014/03/24 14:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home/login".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('home/login')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unipanga/source/index.php?r=home/login
+---
+2014/03/24 14:33:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home/login".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('home/login')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unipanga/source/index.php?r=home/login
+---
+2014/03/24 14:33:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home/Login".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('home/Login')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unipanga/source/index.php?r=home/Login
+---
+2014/03/24 14:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "administrator/index".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('administrator/i...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unipanga/source/index.php?r=administrator/index
+---
+2014/03/24 14:40:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home/index".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/unipanga/source/index.php?r=home/index
+HTTP_REFERER=http://localhost/unipanga/source/index.php?r=site/Login
+---
+2014/03/24 14:44:58 [error] [exception.CException] exception 'CException' with message 'Statistics and its behaviors do not have a method or closure named "rec_time".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(225): CComponent->__call('rec_time', Array)
+#1 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(30): CActiveRecord->__call('rec_time', Array)
+#2 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(30): Statistics->rec_time()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DataFetcherController->actionGet()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('Get')
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('DataFetcher/Get')
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/unipanga/source/index.php?r=DataFetcher/Get&ip=39.48.20.159&region=Asia&country=PK&city=Karachi&state=Sindh&long=67.0822&lati=24.9056&id=AESCSAWDX12Swa
+---
+2014/03/24 14:47:32 [error] [exception.CException] exception 'CException' with message 'Statistics and its behaviors do not have a method or closure named "rec_time".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(225): CComponent->__call('rec_time', Array)
+#1 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(30): CActiveRecord->__call('rec_time', Array)
+#2 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(30): Statistics->rec_time()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DataFetcherController->actionGet()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('Get')
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('DataFetcher/Get')
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/unipanga/source/index.php?r=DataFetcher/Get&ip=192.168.1.1&region=Asia&country=Pakistan&city=Karachi&state=Sindh&long=12.32&lati=98.45&id=AESCSAWDX12Swa
+---
+2014/03/24 14:48:00 [error] [exception.CException] exception 'CException' with message 'Statistics and its behaviors do not have a method or closure named "rec_time".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(225): CComponent->__call('rec_time', Array)
+#1 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(30): CActiveRecord->__call('rec_time', Array)
+#2 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(30): Statistics->rec_time()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DataFetcherController->actionGet()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('Get')
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('DataFetcher/Get')
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/unipanga/source/index.php?r=DataFetcher/Get&ip=192.168.1.1&region=Asia&country=Pakistan&city=Karachi&state=Sindh&long=12.32&lati=98.45&id=AESCSAWDX12Swa
+---
+2014/03/24 14:50:23 [error] [exception.CException] exception 'CException' with message 'Property "Statistics.rec" is not defined.' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(143): CComponent->__get('rec')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\validators\CRequiredValidator.php(51): CActiveRecord->__get('rec')
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\validators\CValidator.php(213): CRequiredValidator->validateAttribute(Object(Statistics), 'rec')
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CModel.php(159): CValidator->validate(Object(Statistics), NULL)
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(794): CModel->validate(NULL)
+#5 C:\wamp\www\unipanga\source\protected\controllers\DataFetcherController.php(31): CActiveRecord->save()
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DataFetcherController->actionGet()
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('Get')
+#11 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('DataFetcher/Get')
+#12 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/unipanga/source/index.php?r=DataFetcher/Get&ip=192.168.1.1&region=Asia&country=Pakistan&city=Karachi&state=Sindh&long=12.32&lati=98.45&id=AESCSAWDX12Swa
+---
+2014/03/24 16:40:51 [error] [exception.CException] exception 'CException' with message 'Property "DashboardController.unq_id" is not defined.' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\unipanga\source\protected\controllers\DashboardController.php(17): CComponent->__set('unq_id', 'cbae962f7fd7016...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionAddWebsite()
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('addWebsite')
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/addWe...')
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/unipanga/source/index.php?r=dashboard/addWebsite
+HTTP_REFERER=http://localhost/unipanga/source/index.php?r=dashboard/addWebsite
+---
+2014/03/24 16:41:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "viewCode".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('viewCode')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('viewCode')
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/viewC...')
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unipanga/source/index.php?r=dashboard/viewCode&unqId=7aadbeff2d33c1479cc31f65d98c39ec
+HTTP_REFERER=http://localhost/unipanga/source/index.php?r=dashboard/addWebsite
+---
+2014/03/24 16:50:27 [error] [php] Array to string conversion (C:\wamp\www\unipanga\source\protected\controllers\DashboardController.php:41)
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): DashboardController->runAction()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): DashboardController->run()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\unipanga\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/unipanga/source/index.php?r=dashboard/viewCode&unqId=7aadbeff2d33c1479cc31f65d98c39ec
+in C:\wamp\www\unipanga\source\protected\controllers\DashboardController.php (41)
+in C:\wamp\www\unipanga\source\index.php (13)
+2014/03/24 17:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "inded".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('inded')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('inded')
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/inded')
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unipanga/source/index.php?r=dashboard/inded
+---
+2014/03/24 19:13:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "webStatistics".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('webStatistics')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('webStatistics')
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/webSt...')
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unipanga/source/index.php?r=dashboard/webStatistics&unqId=7aadbeff2d33c1479cc31f65d98c39ec
+HTTP_REFERER=http://localhost/unipanga/source/index.php?r=dashboard/index
+---
+2014/03/24 19:37:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "webStatisticsmap".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('webStatisticsma...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('webStatisticsma...')
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/webSt...')
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unipanga/source/index.php?r=dashboard/webStatisticsmap
+---
+2014/03/24 19:37:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "webStatisticsmap".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('webStatisticsma...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('webStatisticsma...')
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/webSt...')
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unipanga/source/index.php?r=dashboard/webStatisticsmap
+---
+2014/03/25 14:44:02 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\helpers\CHtml.php:98)
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\helpers\CHtml.php(153): renderAttributes()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\helpers\CHtml.php(426): tag()
+#2 C:\wamp\www\unipanga\source\protected\views\dashboard\sideBar.php(2): image()
+#3 C:\wamp\www\unipanga\source\protected\views\dashboard\WebStatisticsGraphs.php(2): include()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require()
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(869): DashboardController->renderFile()
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(782): DashboardController->renderPartial()
+#8 C:\wamp\www\unipanga\source\protected\controllers\DashboardController.php(125): DashboardController->render()
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionWebStatisticsGraphs()
+#10 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): DashboardController->runAction()
+#12 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#13 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): DashboardController->run()
+#14 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\unipanga\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/unipanga/source/index.php?r=dashboard/WebStatisticsGraphs&unqId=7aadbeff2d33c1479cc31f65d98c39ec
+in C:\wamp\www\unipanga\source\protected\views\dashboard\sideBar.php (2)
+in C:\wamp\www\unipanga\source\protected\views\dashboard\WebStatisticsGraphs.php (2)
+in C:\wamp\www\unipanga\source\protected\controllers\DashboardController.php (125)
+2014/03/25 15:32:16 [error] [php] Object of class Website could not be converted to string (C:\wamp\www\unipanga\source\protected\views\dashboard\webStatistics.php:4)
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(869): DashboardController->renderFile()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(782): DashboardController->renderPartial()
+#2 C:\wamp\www\unipanga\source\protected\controllers\DashboardController.php(68): DashboardController->render()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionWebStatistics()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): DashboardController->runAction()
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): DashboardController->run()
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\unipanga\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/unipanga/source/index.php?r=dashboard/webStatistics&unqId=AESCSAWDX12Swa
+in C:\wamp\www\unipanga\source\protected\views\dashboard\webStatistics.php (4)
+in C:\wamp\www\unipanga\source\protected\controllers\DashboardController.php (68)
+in C:\wamp\www\unipanga\source\index.php (13)
+2014/03/25 17:28:49 [error] [php] Trying to get property of non-object (C:\wamp\www\unipanga\source\protected\views\dashboard\WebStatisticsGraphs.php:4)
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(869): DashboardController->renderFile()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(782): DashboardController->renderPartial()
+#2 C:\wamp\www\unipanga\source\protected\controllers\DashboardController.php(129): DashboardController->render()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionWebStatisticsGraphs()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): DashboardController->runAction()
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): DashboardController->run()
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\unipanga\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/unipanga/source/index.php?r=dashboard/WebStatisticsGraphs&unqId
+in C:\wamp\www\unipanga\source\protected\views\dashboard\WebStatisticsGraphs.php (4)
+in C:\wamp\www\unipanga\source\protected\controllers\DashboardController.php (129)
+in C:\wamp\www\unipanga\source\index.php (13)
+2014/03/25 17:54:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\wamp\www\unipanga\source\protected\controllers\DashboardController.php(91): CModule->__get('db')
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DashboardController->actionWebStatisticsGraphs()
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('WebStatisticsGr...')
+#10 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/WebSt...')
+#11 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/unipanga/source/index.php?r=dashboard/WebStatisticsGraphs&unqId=7aadbeff2d33c1479cc31f65d98c39ec
+---
+2014/03/25 19:01:09 [error] [exception.CException] exception 'CException' with message 'Property "AdministratorController.userId" is not defined.' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\unipanga\source\protected\controllers\AdministratorController.php(23): CComponent->__set('userId', '2')
+#1 C:\wamp\www\unipanga\source\protected\controllers\AdministratorController.php(6): AdministratorController->isLogged()
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AdministratorController->actionIndex()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('administrator/i...')
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/unipanga/source/index.php?r=administrator/index
+---
+2014/03/25 19:16:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "viewUsers".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('viewUsers')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('viewUsers')
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('administrator/v...')
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unipanga/source/index.php?r=administrator/viewUsers
+HTTP_REFERER=http://localhost/unipanga/source/index.php?r=administrator/addUser
+---
+2014/03/25 19:20:15 [error] [php] Undefined index: formAddUser (C:\wamp\www\unipanga\source\protected\controllers\AdministratorController.php:15)
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): AdministratorController->runAction()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AdministratorController->runActionWithFilters()
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AdministratorController->run()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\unipanga\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/unipanga/source/index.php?r=administrator/addUser
+in C:\wamp\www\unipanga\source\protected\controllers\AdministratorController.php (15)
+in C:\wamp\www\unipanga\source\index.php (13)
+2014/03/25 19:23:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "add".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(270): CController->missingAction('add')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('add')
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('administrator/a...')
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\unipanga\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/unipanga/source/index.php?r=administrator/add
+---
+2014/03/25 20:14:47 [error] [php] Undefined index: unqId (C:\wamp\www\unipanga\source\protected\views\administrator\sideBar.php:2)
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): AdministratorController->renderInternal()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AdministratorController->renderFile()
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AdministratorController->renderPartial()
+#3 C:\wamp\www\unipanga\source\protected\controllers\AdministratorController.php(23): AdministratorController->render()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AdministratorController->actionIndex()
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): AdministratorController->runAction()
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AdministratorController->runActionWithFilters()
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AdministratorController->run()
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\unipanga\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/unipanga/source/index.php?r=administrator/index
+in C:\wamp\www\unipanga\source\protected\views\administrator\sideBar.php (2)
+in C:\wamp\www\unipanga\source\protected\views\administrator\index.php (7)
+in C:\wamp\www\unipanga\source\protected\controllers\AdministratorController.php (23)
+2014/03/25 20:15:13 [error] [php] Undefined variable: barLabel (C:\wamp\www\unipanga\source\protected\views\administrator\index.php:18)
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AdministratorController->renderFile()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AdministratorController->renderPartial()
+#2 C:\wamp\www\unipanga\source\protected\controllers\AdministratorController.php(23): AdministratorController->render()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AdministratorController->actionIndex()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): AdministratorController->runAction()
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AdministratorController->runActionWithFilters()
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AdministratorController->run()
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\unipanga\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/unipanga/source/index.php?r=administrator/index
+in C:\wamp\www\unipanga\source\protected\views\administrator\index.php (18)
+in C:\wamp\www\unipanga\source\protected\controllers\AdministratorController.php (23)
+in C:\wamp\www\unipanga\source\index.php (13)
+2014/03/25 20:15:34 [error] [php] Undefined variable: barLabel (C:\wamp\www\unipanga\source\protected\views\administrator\index.php:18)
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(869): AdministratorController->renderFile()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(782): AdministratorController->renderPartial()
+#2 C:\wamp\www\unipanga\source\protected\controllers\AdministratorController.php(24): AdministratorController->render()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): AdministratorController->actionIndex()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(286): AdministratorController->runAction()
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): AdministratorController->runActionWithFilters()
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): AdministratorController->run()
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\unipanga\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/unipanga/source/index.php?r=administrator/index
+in C:\wamp\www\unipanga\source\protected\views\administrator\index.php (18)
+in C:\wamp\www\unipanga\source\protected\controllers\AdministratorController.php (24)
+in C:\wamp\www\unipanga\source\index.php (13)
+2014/03/25 20:27:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wiredser_unip.icm_users' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `icm_users`.
+in /home/wiredser/public_html/uniPanga/protected/models/Users.php (29)
+in /home/wiredser/public_html/uniPanga/protected/components/UserIdentity.php (24)
+in /home/wiredser/public_html/uniPanga/protected/models/formLogin.php (22)
+2014/03/25 20:27:18 [error] [exception.CDbException] exception 'CDbException' with message 'The table "icm_users" for active record class "Users" cannot be found in the database.' in /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php:2310
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Users))
+#1 /home/wiredser/public_html/uniPanga/protected/models/Users.php(29): CActiveRecord::model('Users')
+#2 /home/wiredser/public_html/uniPanga/protected/components/UserIdentity.php(24): Users::model()
+#3 /home/wiredser/public_html/uniPanga/protected/models/formLogin.php(22): UserIdentity->authenticate()
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/validators/CInlineValidator.php(42): formLogin->authenticate('password', Array)
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(formLogin), 'password')
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CModel.php(159): CValidator->validate(Object(formLogin), NULL)
+#7 /home/wiredser/public_html/uniPanga/protected/controllers/SiteController.php(56): CModel->validate()
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#9 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('Login')
+#13 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('site/Login')
+#14 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /home/wiredser/public_html/uniPanga/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/uniPanga/index.php?r=site/Login
+HTTP_REFERER=http://wiredservices.com.au/uniPanga/index.php?r=site/Login
+---
+2014/03/25 20:28:41 [error] [php] session_regenerate_id(): Cannot regenerate session id - headers already sent (/home/wiredser/yii-1.1.13.e9e4a0/framework/web/CHttpSession.php:185)
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/auth/CWebUser.php(227): CWebUser->changeIdentity()
+#1 /home/wiredser/public_html/uniPanga/protected/models/formLogin.php(33): CWebUser->login()
+#2 /home/wiredser/public_html/uniPanga/protected/controllers/SiteController.php(56): formLogin->login()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): SiteController->runAction()
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /home/wiredser/public_html/uniPanga/index.php(13): CWebApplication->run()
+REQUEST_URI=/uniPanga/index.php?r=site/Login
+in /home/wiredser/public_html/uniPanga/protected/models/formLogin.php (33)
+in /home/wiredser/public_html/uniPanga/protected/controllers/SiteController.php (56)
+in /home/wiredser/public_html/uniPanga/index.php (13)
+2014/03/25 20:45:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register".' in /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php:483
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(270): CController->missingAction('register')
+#1 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('register')
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('site/register')
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/wiredser/public_html/uniPanga/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/uniPanga/index.php?r=site/register
+HTTP_REFERER=http://wiredservices.com.au/uniPanga/index.php?r=site/Login
+---
+2014/03/25 20:46:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register".' in /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php:483
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(270): CController->missingAction('register')
+#1 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('register')
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('site/register')
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/wiredser/public_html/uniPanga/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/uniPanga/index.php?r=site/register
+HTTP_REFERER=http://wiredservices.com.au/uniPanga/index.php?r=site/Login
+---
+2014/03/25 20:49:19 [error] [exception.CException] exception 'CException' with message 'DashboardController cannot find the requested view "webStatisticsGraphs".' in /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php:878
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(782): CController->renderPartial('webStatisticsGr...', Array, true)
+#1 /home/wiredser/public_html/uniPanga/protected/controllers/DashboardController.php(129): CController->render('webStatisticsGr...', Array)
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DashboardController->actionWebStatisticsGraphs()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('WebStatisticsGr...')
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('dashboard/WebSt...')
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/wiredser/public_html/uniPanga/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/uniPanga/index.php?r=dashboard/WebStatisticsGraphs&unqId=553e69e2cd6152b6ede1f4d5db52d35f
+HTTP_REFERER=http://wiredservices.com.au/uniPanga/index.php?r=dashboard/webStatistics&unqId=553e69e2cd6152b6ede1f4d5db52d35f
+---
+2014/03/25 20:50:14 [error] [exception.CException] exception 'CException' with message 'DashboardController cannot find the requested view "webStatisticsGraphs".' in /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php:878
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(782): CController->renderPartial('webStatisticsGr...', Array, true)
+#1 /home/wiredser/public_html/uniPanga/protected/controllers/DashboardController.php(129): CController->render('webStatisticsGr...', Array)
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DashboardController->actionWebStatisticsGraphs()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('WebStatisticsGr...')
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('dashboard/WebSt...')
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/wiredser/public_html/uniPanga/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/uniPanga/index.php?r=dashboard/WebStatisticsGraphs&unqId=553e69e2cd6152b6ede1f4d5db52d35f
+HTTP_REFERER=http://wiredservices.com.au/uniPanga/index.php?r=dashboard/webStatistics&unqId=553e69e2cd6152b6ede1f4d5db52d35f
+---
+2014/03/25 20:51:21 [error] [exception.CException] exception 'CException' with message 'DashboardController cannot find the requested view "webStatisticsGraphs".' in /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php:878
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(782): CController->renderPartial('webStatisticsGr...', Array, true)
+#1 /home/wiredser/public_html/uniPanga/protected/controllers/DashboardController.php(129): CController->render('webStatisticsGr...', Array)
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DashboardController->actionWebStatisticsGraphs()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('WebStatisticsGr...')
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('dashboard/WebSt...')
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/wiredser/public_html/uniPanga/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/uniPanga/index.php?r=dashboard/WebStatisticsGraphs&unqId=553e69e2cd6152b6ede1f4d5db52d35f
+HTTP_REFERER=http://wiredservices.com.au/uniPanga/index.php?r=dashboard/webStatistics&unqId=553e69e2cd6152b6ede1f4d5db52d35f
+---
+2014/03/25 20:51:43 [error] [exception.CException] exception 'CException' with message 'DashboardController cannot find the requested view "webStatisticsGraphs".' in /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php:878
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(782): CController->renderPartial('webStatisticsGr...', Array, true)
+#1 /home/wiredser/public_html/uniPanga/protected/controllers/DashboardController.php(129): CController->render('webStatisticsGr...', Array)
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DashboardController->actionWebStatisticsGraphs()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('WebStatisticsGr...')
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('dashboard/WebSt...')
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/wiredser/public_html/uniPanga/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/uniPanga/index.php?r=dashboard/WebStatisticsGraphs&unqId=553e69e2cd6152b6ede1f4d5db52d35f
+HTTP_REFERER=http://wiredservices.com.au/uniPanga/index.php?r=dashboard/webStatistics&unqId=553e69e2cd6152b6ede1f4d5db52d35f
+---
+2014/03/25 20:52:25 [error] [exception.CException] exception 'CException' with message 'DashboardController cannot find the requested view "webStatisticsGraph".' in /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php:878
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(782): CController->renderPartial('webStatisticsGr...', Array, true)
+#1 /home/wiredser/public_html/uniPanga/protected/controllers/DashboardController.php(129): CController->render('webStatisticsGr...', Array)
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DashboardController->actionWebStatisticsGraphs()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('WebStatisticsGr...')
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('dashboard/WebSt...')
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/wiredser/public_html/uniPanga/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/uniPanga/index.php?r=dashboard/WebStatisticsGraphs&unqId=553e69e2cd6152b6ede1f4d5db52d35f
+HTTP_REFERER=http://wiredservices.com.au/uniPanga/index.php?r=dashboard/webStatistics&unqId=553e69e2cd6152b6ede1f4d5db52d35f
+---
+2014/03/26 04:53:36 [error] [exception.CException] exception 'CException' with message 'AdministratorController cannot find the requested view "webStatisticsGraphs".' in /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php:878
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(782): CController->renderPartial('webStatisticsGr...', Array, true)
+#1 /home/wiredser/public_html/uniPanga/protected/controllers/AdministratorController.php(157): CController->render('webStatisticsGr...', Array)
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): AdministratorController->actionWebStatisticsGraphs()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('WebStatisticsGr...')
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('administrator/W...')
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/wiredser/public_html/uniPanga/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/uniPanga/index.php?r=administrator/WebStatisticsGraphs&unqId=45a1a0895753ae48f29e944ea069d398
+HTTP_REFERER=http://wiredservices.com.au/uniPanga/index.php?r=administrator/WebStatisticsMap&unqId=45a1a0895753ae48f29e944ea069d398
+---
+2014/03/26 04:55:19 [error] [exception.CException] exception 'CException' with message 'AdministratorController cannot find the requested view "webStatisticsGraphs".' in /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php:878
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(782): CController->renderPartial('webStatisticsGr...', Array, true)
+#1 /home/wiredser/public_html/uniPanga/protected/controllers/AdministratorController.php(157): CController->render('webStatisticsGr...', Array)
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): AdministratorController->actionWebStatisticsGraphs()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('WebStatisticsGr...')
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('administrator/W...')
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/wiredser/public_html/uniPanga/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/uniPanga/index.php?r=administrator/WebStatisticsGraphs&unqId=7aadbeff2d33c1479cc31f65d98c39ec
+HTTP_REFERER=http://wiredservices.com.au/uniPanga/index.php?r=administrator/WebStatisticsMap&unqId=7aadbeff2d33c1479cc31f65d98c39ec
+---
+2014/03/26 04:58:50 [error] [exception.CException] exception 'CException' with message 'AdministratorController cannot find the requested view "webStatisticsGraphs".' in /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php:878
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(782): CController->renderPartial('webStatisticsGr...', Array, true)
+#1 /home/wiredser/public_html/crwdmgnt/protected/controllers/AdministratorController.php(157): CController->render('webStatisticsGr...', Array)
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): AdministratorController->actionWebStatisticsGraphs()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('WebStatisticsGr...')
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('administrator/W...')
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/wiredser/public_html/crwdmgnt/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/crwdmgnt/index.php?r=administrator/WebStatisticsGraphs&unqId=45a1a0895753ae48f29e944ea069d398
+HTTP_REFERER=http://wiredservices.com.au/crwdmgnt/index.php?r=administrator/webStatistics&unqId=45a1a0895753ae48f29e944ea069d398
+---
+2014/04/15 20:22:16 [error] [php] Invalid argument supplied for foreach() (/home/wiredser/public_html/crwdmgnt/protected/views/administrator/webStatisticsGraphs.php:71)
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(869): AdministratorController->renderFile()
+#1 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(782): AdministratorController->renderPartial()
+#2 /home/wiredser/public_html/crwdmgnt/protected/controllers/AdministratorController.php(157): AdministratorController->render()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): AdministratorController->actionWebStatisticsGraphs()
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): AdministratorController->runAction()
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): AdministratorController->runActionWithFilters()
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): AdministratorController->run()
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /home/wiredser/public_html/crwdmgnt/index.php(13): CWebApplication->run()
+REQUEST_URI=/crwdmgnt/index.php?r=administrator/WebStatisticsGraphs&unqId=45a1a0895753ae48f29e944ea069d398
+in /home/wiredser/public_html/crwdmgnt/protected/views/administrator/webStatisticsGraphs.php (71)
+in /home/wiredser/public_html/crwdmgnt/protected/controllers/AdministratorController.php (157)
+in /home/wiredser/public_html/crwdmgnt/index.php (13)
+2014/04/22 19:17:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'. The SQL statement executed was: SELECT * FROM `icm_website` `t` WHERE status=?.
+in /home/wiredser/public_html/crwdmgnt/protected/controllers/AdministratorController.php (78)
+in /home/wiredser/public_html/crwdmgnt/index.php (13)
+2014/04/22 19:17:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'. The SQL statement executed was: SELECT * FROM `icm_website` `t` WHERE status=?' in /home/wiredser/yii-1.1.13.e9e4a0/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/wiredser/public_html/crwdmgnt/protected/controllers/AdministratorController.php(78): CActiveRecord->findAll('status=?', Array)
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): AdministratorController->actionViewWebsites()
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('viewWebsites')
+#9 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('administrator/v...')
+#10 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/wiredser/public_html/crwdmgnt/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=administrator/viewWebsites
+HTTP_REFERER=http://evmms.com/index.php?r=administrator/index
+---
+2014/04/22 19:20:43 [error] [php] mysql_real_escape_string(): Access denied for user 'wiredser'@'localhost' (using password: NO) (/home/wiredser/public_html/crwdmgnt/protected/controllers/AdministratorController.php:71)
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): AdministratorController->runAction()
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): AdministratorController->runActionWithFilters()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): AdministratorController->run()
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /home/wiredser/public_html/crwdmgnt/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=administrator/viewWebsites&del=2576eb706e4fdfb3e6f1a026e9d70318
+in /home/wiredser/public_html/crwdmgnt/protected/controllers/AdministratorController.php (71)
+in /home/wiredser/public_html/crwdmgnt/index.php (13)
+2014/04/22 21:10:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wiredser_unip.icm_email_alert' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `icm_email_alert`.
+in /home/wiredser/public_html/crwdmgnt/protected/models/EmailAlert.php (23)
+in /home/wiredser/public_html/crwdmgnt/protected/controllers/DashboardController.php (171)
+in /home/wiredser/public_html/crwdmgnt/index.php (13)
+2014/04/22 21:10:02 [error] [exception.CDbException] exception 'CDbException' with message 'The table "icm_email_alert" for active record class "EmailAlert" cannot be found in the database.' in /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php:2310
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailAlert))
+#1 /home/wiredser/public_html/crwdmgnt/protected/models/EmailAlert.php(23): CActiveRecord::model('EmailAlert')
+#2 /home/wiredser/public_html/crwdmgnt/protected/controllers/DashboardController.php(171): EmailAlert::model()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DashboardController->actionEmailAlert()
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('EmailAlert')
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('dashboard/Email...')
+#9 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /home/wiredser/public_html/crwdmgnt/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=dashboard/EmailAlert
+HTTP_REFERER=http://evmms.com/index.php?r=dashboard/EmailAlert
+---
+2014/04/22 21:15:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "viewProfile".' in /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php:483
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(270): CController->missingAction('viewProfile')
+#1 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('viewProfile')
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('dashboard/viewP...')
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /home/wiredser/public_html/crwdmgnt/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=dashboard/viewProfile
+---
+2014/04/23 02:46:45 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `icm_system_city` `t` WHERE name=? LIMIT 1.
+in /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php (114)
+in /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php (48)
+in /home/wiredser/public_html/crwdmgnt/index.php (13)
+2014/04/23 02:46:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `icm_system_city` `t` WHERE name=? LIMIT 1' in /home/wiredser/yii-1.1.13.e9e4a0/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/CDbCommand.php(414): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryRow()
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(1402): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php(114): CActiveRecord->find('name=?', Array)
+#4 /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php(48): DataFetcherController->findCity(NULL, NULL, NULL, NULL)
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DataFetcherController->actionGet()
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('Get')
+#10 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('DataFetcher/Get')
+#11 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /home/wiredser/public_html/crwdmgnt/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/crwdmgnt/index.php?r=DataFetcher/Get&ip=202.125.143.27&%20region=Asia&country=PK&city=Unknown&state=Unknown&long=70&lati=30&id=45a1a0895753ae48f29e944ea069d398
+HTTP_REFERER=http://thesoft2009.blogspot.com/2009/11/arcade-trade-script-nulled-by.html
+---
+2014/04/29 20:33:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "datafetcher".' in /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('datafetcher')
+#1 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /home/wiredser/public_html/crwdmgnt/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=datafetcher
+---
+2014/04/29 20:35:33 [error] [php] Object of class QuadStatistics could not be converted to string (/home/wiredser/yii-1.1.13.e9e4a0/framework/db/schema/CDbCommandBuilder.php:379)
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(1402): WebsiteQuad->query()
+#1 /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php(105): WebsiteQuad->find()
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DataFetcherController->actionQuadGet()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): DataFetcherController->runAction()
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): DataFetcherController->runActionWithFilters()
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): DataFetcherController->run()
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/wiredser/public_html/crwdmgnt/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=DataFetcher/quadget&id=45a1a0895753ae48f29e944ea069d398&div_id=main-div
+in /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php (105)
+in /home/wiredser/public_html/crwdmgnt/index.php (13)
+2014/04/29 20:36:03 [error] [php] Object of class QuadStatistics could not be converted to string (/home/wiredser/yii-1.1.13.e9e4a0/framework/db/schema/CDbCommandBuilder.php:379)
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(1402): WebsiteQuad->query()
+#1 /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php(105): WebsiteQuad->find()
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DataFetcherController->actionQuadGet()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): DataFetcherController->runAction()
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): DataFetcherController->runActionWithFilters()
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): DataFetcherController->run()
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/wiredser/public_html/crwdmgnt/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=DataFetcher/quadget&id=45a1a0895753ae48f29e944ea069d398&div_id=main-div
+in /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php (105)
+in /home/wiredser/public_html/crwdmgnt/index.php (13)
+2014/04/29 20:38:07 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'div LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `icm_website_quad` `t` WHERE  icm_website_unq_id=45a1a0895753ae48f29e944ea069d398 AND div_name=main-div LIMIT 1.
+in /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php (105)
+in /home/wiredser/public_html/crwdmgnt/index.php (13)
+2014/04/29 20:38:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'div LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `icm_website_quad` `t` WHERE  icm_website_unq_id=45a1a0895753ae48f29e944ea069d398 AND div_name=main-div LIMIT 1' in /home/wiredser/yii-1.1.13.e9e4a0/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/CDbCommand.php(414): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryRow()
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(1402): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php(105): CActiveRecord->find(Object(CDbCriteria))
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DataFetcherController->actionQuadGet()
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('quadget')
+#9 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('DataFetcher/qua...')
+#10 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/wiredser/public_html/crwdmgnt/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=DataFetcher/quadget&id=45a1a0895753ae48f29e944ea069d398&div_id=main-div
+---
+2014/04/29 20:38:47 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'div LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `icm_website_quad` `t` WHERE  icm_website_unq_id=45a1a0895753ae48f29e944ea069d398 AND div_name=main-div LIMIT 1.
+in /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php (105)
+in /home/wiredser/public_html/crwdmgnt/index.php (13)
+2014/04/29 20:38:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'div LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `icm_website_quad` `t` WHERE  icm_website_unq_id=45a1a0895753ae48f29e944ea069d398 AND div_name=main-div LIMIT 1' in /home/wiredser/yii-1.1.13.e9e4a0/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/CDbCommand.php(414): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryRow()
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(1402): CActiveRecord->query(Object(CDbCriteria))
+#3 /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php(105): CActiveRecord->find(Object(CDbCriteria))
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DataFetcherController->actionQuadGet()
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('quadget')
+#9 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('DataFetcher/qua...')
+#10 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /home/wiredser/public_html/crwdmgnt/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=DataFetcher/quadget&id=45a1a0895753ae48f29e944ea069d398&div_id=main-div
+---
+2014/04/29 20:40:52 [error] [exception.CException] exception 'CException' with message 'QuadStatistics and its behaviors do not have a method or closure named "rec_time".' in /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CComponent.php:265
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(225): CComponent->__call('rec_time', Array)
+#1 /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php(104): CActiveRecord->__call('rec_time', Array)
+#2 /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php(104): QuadStatistics->rec_time()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DataFetcherController->actionQuadGet()
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('quadget')
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('DataFetcher/qua...')
+#9 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /home/wiredser/public_html/crwdmgnt/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=DataFetcher/quadget&id=45a1a0895753ae48f29e944ea069d398&quad_id=1
+---
+2014/04/29 20:55:08 [error] [exception.CDbException] exception 'CDbException' with message 'No columns are being updated for table "icm_website".' in /home/wiredser/yii-1.1.13.e9e4a0/framework/db/schema/CDbCommandBuilder.php:290
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(1690): CDbCommandBuilder->createUpdateCommand(Object(CMysqlTableSchema), Array, Object(CDbCriteria))
+#1 /home/wiredser/public_html/crwdmgnt/protected/controllers/DashboardController.php(250): CActiveRecord->updateByPk('1', Array)
+#2 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DashboardController->actionViewProfile()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('ViewProfile')
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('dashboard/ViewP...')
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /home/wiredser/public_html/crwdmgnt/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=dashboard/ViewProfile
+HTTP_REFERER=http://evmms.com/index.php?r=dashboard/ViewProfile
+---
+2014/04/29 21:43:39 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`wiredser_unip`.`icm_statistics`, CONSTRAINT `fk_icm_statistics_icm_website1` FOREIGN KEY (`icm_website_unq_id`) REFERENCES `icm_website` (`unq_id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `icm_statistics` (`icm_system_city_id`, `long`, `lati`, `ip`, `icm_website_unq_id`, `datetime`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php (54)
+in /home/wiredser/public_html/crwdmgnt/index.php (13)
+2014/04/29 21:43:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`wiredser_unip`.`icm_statistics`, CONSTRAINT `fk_icm_statistics_icm_website1` FOREIGN KEY (`icm_website_unq_id`) REFERENCES `icm_website` (`unq_id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `icm_statistics` (`icm_system_city_id`, `long`, `lati`, `ip`, `icm_website_unq_id`, `datetime`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in /home/wiredser/yii-1.1.13.e9e4a0/framework/db/CDbCommand.php:357
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(1023): CDbCommand->execute()
+#1 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php(54): CActiveRecord->save()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DataFetcherController->actionGet()
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('Get')
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('DataFetcher/Get')
+#9 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /home/wiredser/public_html/crwdmgnt/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/crwdmgnt/index.php?r=DataFetcher/Get&id=45e770f1f1304941720cf083266c9c09
+---
+2014/04/29 21:44:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`wiredser_unip`.`icm_statistics`, CONSTRAINT `fk_icm_statistics_icm_website1` FOREIGN KEY (`icm_website_unq_id`) REFERENCES `icm_website` (`unq_id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `icm_statistics` (`icm_system_city_id`, `long`, `lati`, `ip`, `icm_website_unq_id`, `datetime`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php (54)
+in /home/wiredser/public_html/crwdmgnt/index.php (13)
+2014/04/29 21:44:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`wiredser_unip`.`icm_statistics`, CONSTRAINT `fk_icm_statistics_icm_website1` FOREIGN KEY (`icm_website_unq_id`) REFERENCES `icm_website` (`unq_id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `icm_statistics` (`icm_system_city_id`, `long`, `lati`, `ip`, `icm_website_unq_id`, `datetime`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in /home/wiredser/yii-1.1.13.e9e4a0/framework/db/CDbCommand.php:357
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(1023): CDbCommand->execute()
+#1 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php(54): CActiveRecord->save()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DataFetcherController->actionGet()
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('Get')
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('DataFetcher/Get')
+#9 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /home/wiredser/public_html/crwdmgnt/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/crwdmgnt/index.php?r=DataFetcher/Get&id=45e770f1f1304941720cf083266c9c09
+---
+2014/04/29 21:44:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`wiredser_unip`.`icm_statistics`, CONSTRAINT `fk_icm_statistics_icm_website1` FOREIGN KEY (`icm_website_unq_id`) REFERENCES `icm_website` (`unq_id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `icm_statistics` (`icm_system_city_id`, `long`, `lati`, `ip`, `icm_website_unq_id`, `datetime`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php (54)
+in /home/wiredser/public_html/crwdmgnt/index.php (13)
+2014/04/29 21:44:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`wiredser_unip`.`icm_statistics`, CONSTRAINT `fk_icm_statistics_icm_website1` FOREIGN KEY (`icm_website_unq_id`) REFERENCES `icm_website` (`unq_id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `icm_statistics` (`icm_system_city_id`, `long`, `lati`, `ip`, `icm_website_unq_id`, `datetime`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in /home/wiredser/yii-1.1.13.e9e4a0/framework/db/CDbCommand.php:357
+Stack trace:
+#0 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(1023): CDbCommand->execute()
+#1 /home/wiredser/yii-1.1.13.e9e4a0/framework/db/ar/CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 /home/wiredser/public_html/crwdmgnt/protected/controllers/DataFetcherController.php(54): CActiveRecord->save()
+#3 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): DataFetcherController->actionGet()
+#4 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('Get')
+#8 /home/wiredser/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('DataFetcher/Get')
+#9 /home/wiredser/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /home/wiredser/public_html/crwdmgnt/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/crwdmgnt/index.php?r=DataFetcher/Get&id=45e770f1f1304941720cf083266c9c09
+---
